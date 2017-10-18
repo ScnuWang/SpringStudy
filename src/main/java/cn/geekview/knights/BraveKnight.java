@@ -1,7 +1,5 @@
 package cn.geekview.knights;
 
-import cn.geekview.quest.Quest;
-
 /**
  *  直接注入一个接口，也可以是一个父类
  */

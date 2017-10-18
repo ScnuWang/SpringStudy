@@ -1,4 +1,6 @@
-package cn.geekview.quest;
+package cn.geekview.knights;
+
+import cn.geekview.knights.Quest;
 
 import java.io.PrintStream;
 

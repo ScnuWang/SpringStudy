@@ -2,8 +2,8 @@ package cn.geekview.knights.config;
 
 import cn.geekview.knights.BraveKnight;
 import cn.geekview.knights.Knight;
-import cn.geekview.quest.Quest;
-import cn.geekview.quest.SlayDragonQuest;
+import cn.geekview.knights.Quest;
+import cn.geekview.knights.SlayDragonQuest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

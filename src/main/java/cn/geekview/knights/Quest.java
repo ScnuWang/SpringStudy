@@ -1,4 +1,4 @@
-package cn.geekview.quest;
+package cn.geekview.knights;
 
 public interface Quest {
     void embark();

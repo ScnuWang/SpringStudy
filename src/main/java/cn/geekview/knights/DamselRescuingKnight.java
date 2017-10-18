@@ -1,7 +1,5 @@
 package cn.geekview.knights;
 
-import cn.geekview.quest.RescueDamselQuest;
-
 /**
  * 传统的依赖写法：
  *      只能处理RescueDamselQuest这一类
