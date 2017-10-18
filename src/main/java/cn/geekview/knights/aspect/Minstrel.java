@@ -18,11 +18,12 @@ public class Minstrel {
         this.stream = stream;
     }
 
+    //切点
     @Pointcut("execution(* cn.geekview.knights.BraveKnight.embarkOnQuest(..))")
     private void aopsign(){
 
     }
-
+   //通知
     @Before("aopsign()")
     public void beforemethod(){
         stream.println("Minstrel:调用前打印");
