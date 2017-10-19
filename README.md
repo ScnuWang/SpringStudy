@@ -9,4 +9,9 @@
 2. 利用SpringAOP,给对象新增功能
 3. 看完第一部分内容
 > 总结：进一步加深了对Spring的理解，以及Spring的使用，特别是通过JavaConfig的配置。
-
+#### 2017-10-19
+1. 新增一个模块，纯注解实现Spring与SpringMVC集成，去掉web.xml以及Spring相关配置文件
+2. 添加commons-lang3包，复写对象模型的equal方法和hashcode方法
+3. 添加validation-api包，配合Spring的@Valit注解实现在Controller的方法上对请求的对象模型进行校验
+4. 添加thymeleaf包,并与Spring集成，代替之前的JSP
+> 书上面很多地方的代码都不完整，还有些类根本找不到，估计是作者直接写的
